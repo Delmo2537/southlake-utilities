@@ -1,0 +1,49 @@
+﻿@media print {
+    .navbar,
+    .sub-nav,
+    footer,
+    .btn,
+    .pagination {
+        display: none;
+    }
+
+    html {
+        font-size: 12px;
+        line-height: normal;
+
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .widget .card-title {
+        font-size: 15px;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    #receipt {
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #receipt #success-icon {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+        color: #000;
+    }
+
+    #receipt #send-receipt,
+    #receipt .print {
+        display: none;
+    }
+}
